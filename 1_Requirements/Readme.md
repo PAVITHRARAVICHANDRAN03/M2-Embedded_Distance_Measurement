@@ -10,23 +10,11 @@ Nowadays, we have some difficulties in obtaining the distance that we want to me
 
 ## Features and Cost and Timeline
 
-1.Add Patient Record
+1. Used to measure the obstacle distance.
 
-2.Delete Patient Record
+2. This system used in automotive parking sensors and obstacle warning systems.
 
-3.Search Patient Record
-
-4.Display Patient Record
-
-5.Update Patient Record
-
-Reduce cost:
-
-Reducing operational cost: Our project aim is to come up with a software product that will reduce the operational costs of a business.There will be no use of purchasing stationary and hence reduced operational costs.
-
-Reducing errors:
-
-our software will provide proper validation techniques thet will collectvely reduce errors done when recording data.
+3. Used in terrain monitoring robots
 
 ## Timeline
 
@@ -43,21 +31,19 @@ The Clinic Management System was develop in a simple console application, the sy
 
 ###  Strength:
 
-#### 2. Special expertise
+#### 1. Measure the distance which wil be easy to conﬁgure and handle.
 
-#### 3. Reputation
+#### 2. Easy to use and reliable
 
-#### 4. cost
+#### 3. cost
 
-#### 5. Technology advantages
+#### 4. Technology advantages
 
 ###  Weaknesses:
 
-#### 1. Limited service lines
+#### 1. They cannot tell you the exact distance or location of the obstacle.
 
-#### 2. Management of staff problems
-
-#### 3. Marketing deficiencies
+#### 2. Marketing deficiencies
 
 ### Opportunities:
 
