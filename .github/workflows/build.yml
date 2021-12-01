@@ -1,4 +1,4 @@
-name: Compile-Linux
+name: build-Linux
 
 on:
   push:
@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: get_avr-gcc
       run: sudo apt-get install gcc-avr binutils-avr avr-libc
-    - name: Compile
+    - name: build
       run: make
