@@ -115,7 +115,7 @@ void send_address(U8 add, access_mode acc) {
 		// TWDR = 0x68 ;
 		TWCR = ((1 << TWINT) | (1 << TWEN));
 		while (!(TWCR & (1 << TWINT)))
-			;  //wait for TWINT flag SET
+			;  //wait for TWINT flag SET.
 	}
 
 }
