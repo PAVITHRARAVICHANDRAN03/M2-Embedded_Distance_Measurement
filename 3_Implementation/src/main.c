@@ -1,5 +1,5 @@
 
-#include "i2c_lcd_pc8574.h"
+#include "i2c_lcd.h"
 #include "inputCapture_timer.h"
 #include "usart.h"
 
