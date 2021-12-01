@@ -1,10 +1,3 @@
-/*
- * inputCapture_timer.h
- *
- *  Created on: Nov 17, 2017
- *      Author: abel
- */
-
 #ifndef INPUTCAPTURE_TIMER_H_
 #define INPUTCAPTURE_TIMER_H_
 #include <util/delay.h>
