@@ -1,9 +1,3 @@
-/*
- * main.c
- *
- *  Created on: Nov 17, 2017
- *      Author: abel
- */
 
 #include "i2c_lcd_pc8574.h"
 #include "inputCapture_timer.h"
