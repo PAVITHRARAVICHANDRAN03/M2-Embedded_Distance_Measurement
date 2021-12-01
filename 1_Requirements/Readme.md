@@ -15,11 +15,6 @@ Nowadays, we have some difficulties in obtaining the distance that we want to me
 2. This system used in automotive parking sensors and obstacle warning systems.
 
 3. Used in terrain monitoring robots
-
-## Timeline
-
-
-
          
 ## Defining Our System
 
@@ -91,24 +86,23 @@ This project, we have used the HC-SR04 Ultrasonic Sensor with ATMEGA328 to deter
 ## Detail requirements
 
 
+## Low Level Requirements
+| ID | Description | Status (Implemented) |
+| --- | --- | --- |
+| HR01 |Enable ICP Interrupt | Implemented |
+| HR02 |Enable rising edge detection,noise cancellation,| Implemented |
+| HR03 |Enable internal pullups on PORTC PINS  SDA(PC4) ,SCL(PC5) | Implemented |
+| HR04 | I2C and LCD | Implemented |
+
+
+
 ## High Level Requirements
 | ID | Description | Status (Implemented) |
 | --- | --- | --- |
-| HR01 |Enter patient's name | Implemented |
-| HR02 |Enter disease name| Implemented |
-| HR03 | Enter the age | Implemented |
-| HR04 | Enter cabin no | Implemented |
-| HR05 | Enter phone no | Implemented |
+| LR01 |The Timer count (OCR2A) of Timer2 was chosen | Implemented |
+| LR02 |Timer2 of ATMEGA328p is used to generate a Trigger pulse of 20uS,  | Implemented |
+| LR03 |The prescaler of this unit was chosen, such that the resolution of pulse-width is 16uS. | Implemented |
 
-
-## Low Level Requirement
-| ID | Description | Status (Implemented) |
-| --- | --- | --- |
-| LR01 | Add Your Information | Implemented |
-| LR02 | View your Information  | Implemented |
-| LR03 | Search your Information  | Implemented |
-| LR04 |Edit your Information  | Implemented  |
-| LR05 |Delete your Information |Implemented |
 
 
 
