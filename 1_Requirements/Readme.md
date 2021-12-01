@@ -18,14 +18,20 @@ Nowadays, we have some difficulties in obtaining the distance that we want to me
 
 ## Timeline
 
-![time drawio](https://user-images.githubusercontent.com/94224532/143446900-b2ba7e8e-4f1b-4280-96e9-497edb19039a.png)
 
 
          
 ## Defining Our System
 
-The Clinic Management System was develop in a simple console application, the system can openly-accessed without the help of any login information. The user can do a lot of task in the system in the system, he/she can add new patient record, view all patient record, edit current patient record, and search patient record. The system has the function that can enter a patient details, you are also allowed to update the current patient record or delete existing patient record. The inputted data are stored in the text extension file. The Clinic Management System was created in a basic coding structure of C to teach and help beginner to start their programming career. 
- Clinic Management System is design to help the employee in recording the patient's record and will change the manual record into computerized records.
+Distance measurement using HC-SR04 and ATMEGA328p. In this project i have measured distance in centimeters, with the help of HC-SR04 Ultrasound sensor, ATMEGA328p micro-controller, LCD Display via I2C bus.
+
+Principle:
+
+Timer2 of ATMEGA328p is used to generate a Trigger pulse of 20uS, the ultrasonic module sends out a 8cycle burst of 40khz which hits the object surface and returns back to raise an echo pulse. The pulse-width of this pulse is proportional to the distance between the module and Object.
+
+Input capture module of the ATMEGA was used to capture the time between rising and falling edges of the echo pulse. The prescaler of this unit was chosen, such that the resolution of pulse-width is 16uS.
+
+The display in use is LCD which has an integrated chip that converts serial data (via I2C bus) into parallel stream of bits for the LCD
 
 ## SWOT ANALYSIS
 
@@ -49,40 +55,37 @@ The Clinic Management System was develop in a simple console application, the sy
 
 #### 1. New technology
 
-#### 2. Lack of dominant Competition
-
 #### 3. New markets or services
 
 ### Threats:
 
 ####  1. New or increased competition
 
-#### 2. Insurance plan changes
+#### 2. Adverse demograghic changes
 
-#### 3. Adverse demograghic changes
+#### 3. Economic slowdowns
 
-#### 4. Economic slowdowns
 ## 4W's and 1'H
 
 WHAT:
 
-Hospital management system is a computer system that helps manage the information related to health care and aids in the job completion of health care providers effectively.
+Distance is a numerical measurement of how far apart objects or points are.Ultrasonic sensor provides an easy way in distance measurement.
 
 WHY:
 
-HMS was introduced to solve the complications coming from managing all the paper works of every patient associated with the various departments of hospitalization with confidentiality. HMS provides the ability to manage all the paperwork in one place, reducing the work of staff in arranging and analyzing the paperwork of the patients.
+Ultrasonic sensors are great tools to measure distance and detect objects without any actual contact with the physical world. It is used in several applications.
 
 WHERE:
 
-This systems useful in healthcare like hospitals/clinics.
+Measuring liquid level, checking proximity and even more popularly in automobiles to assist in self-parking or anti-collision systems.
 
 WHEN:
-
-A clinic management system is used to manage the patients, the appointments, the doctors' schedules, manage the inventory, etc. It makes the otherwise difficult task of managing a clinic.
-
+The ultrasonic sensor emits a high-frequency sound pulse and calculates the distance depending upon the time taken by the echo signal to travel back after reflecting from the desired target. The speed of sound is 341 meters per second in air. After the distance is calculated, it will be displayed on the LCD display.
+ 
 How:
 
-Clinic management system improves the general efficiency of the organization by automating the entire system.The software helps in streamlining every element of a healthcare center. Some of which includes recordkeeping, printing out prescriptions,scheduling patients' appointments.
+This project, we have used the HC-SR04 Ultrasonic Sensor with ATMEGA328 to determine the distance of an obstacle from the sensor. The basic principle of ultrasonic distance measurement is based on ECHO.
+
 
 
 ## Detail requirements
