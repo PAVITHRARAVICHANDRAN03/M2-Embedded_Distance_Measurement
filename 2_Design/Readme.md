@@ -5,7 +5,9 @@
 ## Structural Diagrams
 
 
+
 ![FLOW DIAGRAM drawio](https://user-images.githubusercontent.com/94224532/144352139-6cc6789c-4ff4-45c5-b6d5-91ee26ae9417.png)
+
 
 
 ## Behavioural Diagrams
@@ -19,7 +21,9 @@
 ## Block Diagrams
 
 
+
 ![block drawio](https://user-images.githubusercontent.com/94224532/144352192-d6e85e2f-6805-4b7a-9cb5-86f61143bb3b.png)
+
 
 
 ## Simulations
@@ -33,7 +37,18 @@
 ## Bill of Materils
 
 
+Circuit: distance_measure.simu
 
+Bill of Materials:
+
+BJT-79 : BJT   
+Hd44780-6 : Hd44780   
+I2CToParallel-3 : I2CToParallel   
+Led-86 : Led   
+Resistor-49 : Resistor 2.2 kΩ
+Resistor-5 : Resistor 2.2 kΩ
+SR04-2 : SR04   
+atmega328-1 : atmega328  
 
 
 
