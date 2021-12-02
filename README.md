@@ -15,3 +15,9 @@ Folder               | Description
 `2_Architecture`     | Documents Specifying design details.
 `3_Implementation`   | All Code and Documentation.
 `4_Test Plan`| Test Cases.
+
+## Challenges Faced 
+
+1.Generation of makefile
+
+2.Debugging setup
