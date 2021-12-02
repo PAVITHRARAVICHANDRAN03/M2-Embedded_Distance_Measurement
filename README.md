@@ -18,6 +18,6 @@ Folder               | Description
 
 ## Challenges Faced 
 
-1.Generation of makefile
+1.Generation of makefile.
 
-2.Debugging setup
+2.Debugging setup.
