@@ -89,19 +89,19 @@ This project, we have used the HC-SR04 Ultrasonic Sensor with ATMEGA328 to deter
 ## Low Level Requirements
 | ID | Description | Status (Implemented) |
 | --- | --- | --- |
-| HR01 |Enable ICP Interrupt | Implemented |
-| HR02 |Enable rising edge detection,noise cancellation,| Implemented |
-| HR03 |Enable internal pullups on PORTC PINS  SDA(PC4) ,SCL(PC5) | Implemented |
-| HR04 | I2C and LCD | Implemented |
+| LR01 |Enable ICP Interrupt | Implemented |
+| LR02 |Enable rising edge detection,noise cancellation,| Implemented |
+| LR03 |Enable internal pullups on PORTC PINS  SDA(PC4) ,SCL(PC5) | Implemented |
+| LR04 | I2C and LCD | Implemented |
 
 
 
 ## High Level Requirements
 | ID | Description | Status (Implemented) |
 | --- | --- | --- |
-| LR01 |The Timer count (OCR2A) of Timer2 was chosen | Implemented |
-| LR02 |Timer2 of ATMEGA328p is used to generate a Trigger pulse of 20uS,  | Implemented |
-| LR03 |The prescaler of this unit was chosen, such that the resolution of pulse-width is 16uS. | Implemented |
+| HR01 |The Timer count (OCR2A) of Timer2 was chosen | Implemented |
+| HR02 |Timer2 of ATMEGA328p is used to generate a Trigger pulse of 20uS,  | Implemented |
+| HR03 |The prescaler of this unit was chosen, such that the resolution of pulse-width is 16uS. | Implemented |
 
 
 
